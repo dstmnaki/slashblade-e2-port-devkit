@@ -50,7 +50,7 @@ Commands:
 .new <EMPTY/file name> - creates a new animation with specified name or if left empty, no name (set it when you save the file)
 
 ------------------------------------------------------------------------------------------------
-###Adding animations
+###Adding animations to the devkit
 
 Adding new animations to the animation library:
 After saving the animation you have to add it to 4 different places, 3 in the editor and 1 in the anim_lib e2
@@ -151,6 +151,12 @@ animation_speed_multiplier
 
 ------------------------------------------------------------------------------------------------
 ###Adding an animation to the core e2
+
+first copy the animation file over to this location
+"e2shared/slashblade_project/anims/"
+
+add the animation to the animation library used in the core e2
+#include "e2shared/slashblade_project/anims/anim_animation_name"
 
 now when you are ready to add the animation to your core e2 depending on what type of animation it is, 
 sheathing animation, special animation, combo animation (another animation can transition to this) or a starting animation (another animation can transition from this)
