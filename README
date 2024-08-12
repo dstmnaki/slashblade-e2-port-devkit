@@ -17,6 +17,8 @@ Mouse1 (Hold) - Rotate bone by looking up or down
 Mouse2 - Toggle parent rotation (local to self or local to parent)
 R - Change axis
 Space (while not in noclip) - Play animation
+Arrow Left & Right - Cycle frames
+Arrow Up & Down - Cycle bones
 
 Commands:
 .angle
